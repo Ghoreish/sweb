@@ -26,6 +26,7 @@ def conn(x):
     hostlist=os.listdir()
     hostlist.remove("files")
     hostlist.remove("pages")
+    hostlist.remove("web_server.py")
     if hostn[:-1] not in os.listdir():
         hostn=""
     if req=='':
